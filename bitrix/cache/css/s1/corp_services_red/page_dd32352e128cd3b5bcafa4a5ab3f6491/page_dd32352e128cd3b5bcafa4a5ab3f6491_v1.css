@@ -1,0 +1,133 @@
+
+
+/* Start:/local/components/bitrix/currencyrates.filter/templates/.default/style.css?17512054271251*/
+.currencyrates-filter {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.currencyrates-filter__group {
+    margin-bottom: 15px;
+}
+
+.currencyrates-filter__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.currencyrates-filter__field {
+    flex: 1;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+
+.currencyrates-filter__field label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.currencyrates-filter__input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.currencyrates-filter__buttons {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.currencyrates-filter__button {
+    padding: 8px 16px;
+    background-color: #0083d1;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.currencyrates-filter__button:hover {
+    background-color: #006dad;
+}
+
+.currencyrates-filter__button[type="reset"] {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.currencyrates-filter__button[type="reset"]:hover {
+    background-color: #e0e0e0;
+} 
+/* End */
+
+
+/* Start:/local/components/bitrix/currencyrates.list/templates/.default/style.css?17512056021077*/
+.currencyrates-list {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.currencyrates-list__header {
+    background-color: #f9f9f9;
+    font-weight: bold;
+}
+
+.currencyrates-list__row {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.currencyrates-list__header .currencyrates-list__row {
+    border-bottom: 2px solid #d0d0d0;
+}
+
+.currencyrates-list__col {
+    padding: 10px;
+    box-sizing: border-box;
+    flex: 1;
+}
+
+.currencyrates-list__col--id {
+    flex: 0 0 60px;
+}
+
+.currencyrates-list__col--code {
+    flex: 0 0 100px;
+}
+
+.currencyrates-list__col--date {
+    flex: 0 0 180px;
+}
+
+.currencyrates-list__col--course {
+    flex: 1;
+    text-align: right;
+}
+
+.currencyrates-list__body .currencyrates-list__row:hover {
+    background-color: #f5f5f5;
+}
+
+.currencyrates-list__empty {
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+}
+
+.currencyrates-list__total {
+    margin-top: 20px;
+    text-align: right;
+    font-weight: bold;
+} 
+/* End */
+/* /local/components/bitrix/currencyrates.filter/templates/.default/style.css?17512054271251 */
+/* /local/components/bitrix/currencyrates.list/templates/.default/style.css?17512056021077 */

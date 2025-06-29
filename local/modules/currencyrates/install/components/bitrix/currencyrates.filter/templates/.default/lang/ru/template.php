@@ -1,0 +1,4 @@
+<?php
+$MESS['CURRENCYRATES_FILTER_CODE_PLACEHOLDER'] = 'Введите код валюты';
+$MESS['CURRENCYRATES_FILTER_SUBMIT'] = 'Применить';
+$MESS['CURRENCYRATES_FILTER_RESET'] = 'Сбросить'; 

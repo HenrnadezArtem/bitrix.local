@@ -1,0 +1,64 @@
+.currencyrates-filter {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.currencyrates-filter__group {
+    margin-bottom: 15px;
+}
+
+.currencyrates-filter__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.currencyrates-filter__field {
+    flex: 1;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+
+.currencyrates-filter__field label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.currencyrates-filter__input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.currencyrates-filter__buttons {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.currencyrates-filter__button {
+    padding: 8px 16px;
+    background-color: #0083d1;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.currencyrates-filter__button:hover {
+    background-color: #006dad;
+}
+
+.currencyrates-filter__button[type="reset"] {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.currencyrates-filter__button[type="reset"]:hover {
+    background-color: #e0e0e0;
+} 

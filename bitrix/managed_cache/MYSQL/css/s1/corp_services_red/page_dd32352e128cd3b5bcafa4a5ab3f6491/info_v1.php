@@ -1,0 +1,1 @@
+<?php $filesInfo = ["/local/components/bitrix/currencyrates.filter/templates/.default/style.css" => "17512054271251","/local/components/bitrix/currencyrates.list/templates/.default/style.css" => "17512056021077",]; ?>
